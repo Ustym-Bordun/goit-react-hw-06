@@ -3,15 +3,15 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  trailingComma: "es5",
+  trailingComma: 'es5',
   singleQuote: true,
-  printWidth: 90,
+  printWidth: 80,
   semi: true,
   useTabs: false,
   tabWidth: 2,
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
 };
 
 export default config;
